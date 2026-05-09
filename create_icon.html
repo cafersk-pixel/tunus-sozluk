@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id="c" width="512" height="512"></canvas>
+<script>
+const c = document.getElementById('c');
+const ctx = c.getContext('2d');
+
+// Arka plan
+ctx.fillStyle = '#1a1a2e';
+ctx.fillRect(0, 0, 512, 512);
+
+// Kırmızı daire
+ctx.beginPath();
+ctx.arc(256, 220, 140, 0, Math.PI * 2);
+ctx.fillStyle = '#e94560';
+ctx.fill();
+
+// Bayrak emojisi yerine TN yazısı
+ctx.fillStyle = '#ffffff';
+ctx.font = 'bold 80px Arial';
+ctx.textAlign = 'center';
+ctx.fillText('🇹🇳', 256, 245);
+
+// Alt yazı
+ctx.fillStyle = '#f0c040';
+ctx.font = 'bold 48px Arial';
+ctx.fillText('TUNUS', 256, 380);
+
+ctx.fillStyle = '#ffffff';
+ctx.font = '28px Arial';
+ctx.fillText('1050 KELİME', 256, 430);
+
+ctx.fillStyle = '#aaaaaa';
+ctx.font = '22px Arial';
+ctx.fillText('SÖZLÜK', 256, 470);
+</script>
+
+<p>Yukarıdaki resme SAĞ TIKLA → "Resmi farklı kaydet" → icon.png</p>
+</body>
+</html>
