@@ -1,6 +1,6 @@
 const CACHE_NAME = 'tunus-v1';
 const urlsToCache = [
-  'tunus_sozluk.html',
+  'index.html',
   'manifest.json',
   'icon.png'
 ];
