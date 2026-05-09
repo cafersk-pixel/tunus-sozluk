@@ -2,7 +2,7 @@
   "name": "Tunus Arapçası 1050 Kelime",
   "short_name": "TunusDili",
   "description": "Tunus Arapçası Sousse Lehçesi 1050 Kelime Sözlüğü",
-  "start_url": "tunus_sozluk.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#1a1a2e",
   "theme_color": "#e94560",
